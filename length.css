@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     background-image: url('black.jpg');
+}
+
+.converter-body
+{
+
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 6px double red;
+    box-shadow: 0px 0px 3px 4px #9a9999 ;
+}
+.converter-title{
+    text-align: center;
+    margin: 13px 0px;
+}
+input{
+    height: 25px;
+    text-align: center;
+    border: 1px solid;
+}
+#input{
+    margin-left: 25px;
+}
+#inputType option{
+    font-size: 24px; 
+}
+#resultType option{
+    font-size: 24px;   
+}
+#inputType{
+    width: 168.5px;
+    margin-left: 25px;
+    color:darkmagenta;
+    margin-top: 7px;
+    height: 20px;
+    border: 1px solid;
+
+}
+#resultType{
+    width:168.5px;
+    margin-left: 25px;
+    color: darkmagenta;
+    height: 20px;
+    border: 1px solid;
+
+}
+#resultType{
+    margin-left: 12.5px;
+}
